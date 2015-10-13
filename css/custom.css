@@ -1,0 +1,173 @@
+
+
+p { color: #4d4d4d; font-size: 14pt; line-height: 1.6; }
+
+h1,h2,p,ul,li,p { font-family: "Lato","Arial",sans-serif; font-weight: 300; }
+
+.navbar { background-color: #f2f2f2; border: none; padding: 0; margin: 0; }
+	.navbar ul { font-size: 15pt; padding:20px 0 30px 0; }
+	.navbar ul a { color: #df0021; }
+	.navbar ul a:hover { color: #df0021; }
+
+.nav-center {
+    margin:0;
+    float:none;
+    padding: 5px 0 12px 0; 
+}
+
+.navbar-inner{
+    text-align:center;
+}
+
+@media (min-width: 768px) {
+  #header {
+      background: url(../img/halloran.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+  .btn-primary { width: 30%; margin: 0 auto; display: block }
+  #eb-button { visibility: hidden; }
+
+}
+
+.btn-primary { font-weight: 100; }
+
+#first p { color: #fff; }
+
+#second { margin: 50px; }
+	#second h2 { color: #305a85; text-align: center; font-size: 32pt; border-bottom: 1px dotted #ccc; }
+	#second img { margin: 15px 0; }
+
+	.full-callout h2 {font-style: italic; font-weight: 100; text-align: center; color: #fff;}
+	.full-callout p { font-size: 18pt;  }
+
+#sponsor-logos-small { text-align: center; background-color: #fff; padding: 25px 0 20px 0; }
+#sponsor-logos-small img {
+  max-height: 50px; 
+  padding: 0 15px; 
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+#quote { padding: 20px 0; background: #7c0f20 }
+	#quote p {float: right; }
+
+.intro { background-color: rgba(255,255,255, 0.5); color: #000; text-align: center; padding-top: 90px; padding-bottom: 40px; }
+
+.intro .italic { font-style: italic; font-size: 14pt; padding-bottom: 20px }
+
+/* .intro h1, .intro p {  text-shadow: 0 1px 0px #ddd; } */
+.intro h1 { font-size: 42pt; margin: 0; color: #fff;
+  text-shadow: 0 1px 2px #474747; }
+.intro p { color: #fff; font-size: 22pt; font-weight: 300; padding: 10px 0 15px 0;
+  text-shadow: 0 1px 2px #474747; }
+
+.blue { background: url(../img/bg-blue.png); }
+.pink { background: #cd3265 ; }
+
+#sponsor-logos p { color: #999; margin: 20px 0; }
+#sponsor-logos img { max-height: 100px; padding: 0 30px}
+#sponsor-logos h2 { margin-bottom: 20px; }
+
+.info { padding: 40px 0; background-color: rgba(0,0,0,0.8);  }
+.info h2,p,ul { color: #fff; font-weight: 100; }
+.info p,ul { font-size: 14pt; }
+.info h2 { font-size: 42px; }
+
+#register {}
+#register p { color: #cd3265; padding: 20px 0 10px 0;}
+#register img { margin-right: 20px}
+
+#callout-help h2 { color: #fff; font-size: 24pt; text-align: center; padding: 24px 0; }
+
+.details h2 { color: #cd3265; border-bottom: 1px solid #cd3265; font-size: 28pt; }
+.details p { color: #999; }
+
+#invovled { margin: 50px 0 -50px 0; }
+
+.center { text-align: center; }
+
+#sponsors { padding-bottom: 40px; }
+#sponsor-logos { background-color: #fff; padding-top: 20px; }
+#sponsor-logos img { margin-bottom: 30px; }
+
+/*
+.speakers { background-color: #eee; padding: 5px 30px; border-radius: 3px; }
+.speakers h2, .speakers p { color: #000 }
+*/
+
+.details .circle { border-radius: 50%; width: 80px; height: 80px; background: #cd3265; padding-top: 20px;
+margin: auto; text-align: center; color: #fff; border:none; font-style: italic;}
+
+#closer p { text-align: center; font-size: 34pt; padding: 80px 0;}
+
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #ad011b;
+  padding: 8px 14px; 
+  text-align: center;
+  display: block;
+  border-radius: 5px;
+  font-size: 18pt;
+  border: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #ffffff;
+  background-color: #b61029;
+  text-decoration: none;
+  border: none;
+}
+
+iframe.vid { width: 500px; height: 281px; }
+
+@media (max-width: 767px) {
+	h1,h2,p,ul,li,p { font-weight: 300; }
+
+  #header {
+        background: url(../img/halloran.jpg) bottom left;
+        background-attachment: fixed;
+      -webkit-background-size:  400%;
+      -moz-background-size:  100%;
+      -o-background-size:  100%;
+      background-size:  400%;
+    }
+
+  .intro { padding: 30px 0 20px 0; }
+	.intro h1 { font-size: 42pt; font-weight: 300; padding-left: 20px; padding-right: 20px; line-height: 44pt; }
+	.intro p { font-size: 18pt; font-weight: 300; padding-left: 20px; padding-right: 20px; }
+
+	.info { padding-left: 18px; padding-right: 18px; background: #313131; }
+  .info p { margin-bottom: 20px; }
+	.info h2 { font-size: 36px; margin-bottom: 14px; }
+	.info h2, p, ul { font-size: 36px; }
+
+	h2 { font-size: 18pt; line-height: 26pt; margin-top: 0; }
+	.full-callout h2 { font-weight: 300; }
+
+  #sponsor-logos img { max-width: 90% }
+
+  #sponsor-logos-small img { max-height: 40px; padding: 0; margin: 10px; }
+
+  iframe.vid { width: 300px; height: 181px; }
+
+  #eb-attr { margin-bottom: 20px; }
+  .btn-primary { font-weight: 300; display: block; }
+
+
+}
+
+
+
+
+
+
+
