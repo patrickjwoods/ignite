@@ -55,15 +55,13 @@ h1,h2,p,ul,li,p { font-family: "Lato","Arial",sans-serif; font-weight: 300; }
 #quote { padding: 20px 0; background: #7c0f20 }
 	#quote p {float: right; }
 
-.intro { background-color: rgba(255,255,255, 0.5); color: #000; text-align: center; padding-top: 90px; padding-bottom: 40px; }
+.intro { background-color: rgba(255,255,255, 0.75); color: #000; text-align: center; padding-top: 90px; padding-bottom: 40px; }
 
 .intro .italic { font-style: italic; font-size: 14pt; padding-bottom: 20px }
 
 /* .intro h1, .intro p {  text-shadow: 0 1px 0px #ddd; } */
-.intro h1 { font-size: 42pt; margin: 0; color: #fff;
-  text-shadow: 0 1px 2px #474747; }
-.intro p { color: #fff; font-size: 22pt; font-weight: 300; padding: 10px 0 15px 0;
-  text-shadow: 0 1px 2px #474747; }
+.intro h1 { font-size: 48pt; margin: 0; color: #000; }
+.intro p { color: #000; font-size: 28pt; font-weight: 300; padding: 10px 0 15px 0; }
 
 .blue { background: url(../img/bg-blue.png); }
 .pink { background: #cd3265 ; }
