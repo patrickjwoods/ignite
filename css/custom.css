@@ -21,7 +21,7 @@ h1,h2,p,ul,li,p { font-family: "Lato","Arial",sans-serif; font-weight: 300; }
 
 @media (min-width: 768px) {
   #header {
-      background: url(../img/halloran.jpg) no-repeat center center fixed;
+      background: url(../img/bg-POTS.jpg) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -136,7 +136,7 @@ iframe.vid { width: 500px; height: 281px; }
 	h1,h2,p,ul,li,p { font-weight: 300; }
 
   #header {
-        background: url(../img/halloran.jpg) bottom left;
+        background: url(../img/bg-POTS.jpg) bottom left;
         background-attachment: fixed;
       -webkit-background-size:  400%;
       -moz-background-size:  100%;
